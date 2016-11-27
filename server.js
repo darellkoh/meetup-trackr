@@ -7,10 +7,8 @@ process.env.PWD = process.cwd();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded( { extended: true }));
 
-// app.use(morgan('dev'));
+app.use(morgan('dev'));
 app.use(express.static(process.env.PWD + '/assets'));
-app.use(express.static(process.env.PWD + '/bower_components'));
-app.use(express.static(process.env.PWD + '/node_modules'));
 app.use(express.static(process.env.PWD + '/dist'));
 app.use(express.static(process.env.PWD + '/src'));
 

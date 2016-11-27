@@ -1,7 +1,6 @@
 {
-  "name": "meetupblast",
-  "version": "0.0.1",
-  "description": "A twitter like live search feed built with appbase.io and react.js",
+  "name": "MeetupTrackr",
+  "description": "A live search feed for meetup.com built with React and Appbase.io",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
