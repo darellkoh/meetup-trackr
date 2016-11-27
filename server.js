@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded( { extended: true }));
 app.use(morgan('dev'));
 app.use(express.static(__dirname + '/assets'));
 app.use(express.static(__dirname + '/bower_components'));
+app.use(express.static(__dirname + '/node_modules'));
 app.use(express.static(__dirname + '/dist'));
 app.use(express.static(__dirname + '/src'));
 
