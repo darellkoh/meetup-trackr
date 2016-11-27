@@ -1,0 +1,34 @@
+{
+  "name": "meetupblast",
+  "version": "0.0.1",
+  "description": "A twitter like live search feed built with appbase.io and react.js",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darellkoh/meetup-trackr.git"
+  },
+  "keywords": [
+    "appbase.io",
+    "react.js",
+    "live",
+    "feed",
+    "twitter",
+    "realtimeapp"
+  ],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/darellkoh/meetup-trackr/issues"
+  },
+  "homepage": "https://github.com/darellkoh/meetup-trackr#readme",
+  "dependencies": {
+    "browserify": "^13.0.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
