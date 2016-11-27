@@ -1,11 +1,11 @@
-var React = require('react');
+const React = require('react');
 
-var UserImg = React.createClass({
-    componentDidMount: function() {
-        var self = this;
+const UserImg = React.createClass({
+    componentDidMount() {
+        const self = this;
         this.img = new Image();
-        var defaultSrc = 'http://www.avidog.com/wp-content/uploads/2015/01/BellaHead082712_11-50x65.jpg';
-        this.img.onerror = function() {
+        const defaultSrc = './assets/placeholder_kitten.jpeg';
+        this.img.onerror = () => {
             if (self.isMounted()) {
                 self.setState({
                     src: defaultSrc
@@ -14,12 +14,12 @@ var UserImg = React.createClass({
         };
         this.img.src = this.state.src;
     },
-    getInitialState: function() {
+    getInitialState() {
         return {
             src: this.props.src
         };
     },
-    render: function() {
+    render() {
         return <img src={this.state.src} />;
     }
 });

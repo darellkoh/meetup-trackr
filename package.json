@@ -4,7 +4,8 @@
   "description": "A twitter like live search feed built with appbase.io and react.js",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,11 @@
   },
   "homepage": "https://github.com/darellkoh/meetup-trackr#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "browserify": "^13.0.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "reactify": "^1.1.1",

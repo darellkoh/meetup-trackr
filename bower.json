@@ -1,11 +1,11 @@
 {
-  "name": "meetupblast",
-  "description": "A twitter like live search feed built with appbase.io and react.js",
+  "name": "MeetupTrackr",
+  "description": "",
   "main": "src/app.js",
   "authors": [
-    "Siddharth Kothari"
+    ""
   ],
-  "license": "MIT",
+  "license": "",
   "keywords": [
     "appbase.io",
     "react.js",
@@ -14,7 +14,7 @@
     "twitter",
     "realtimeapp"
   ],
-  "homepage": "https://github.com/appbaseio/meetupblast",
+  "homepage": "https://github.com/darellkoh/meetup-tracker.git",
   "moduleType": [],
   "ignore": [
     "**/.*",

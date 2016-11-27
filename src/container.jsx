@@ -91,6 +91,7 @@ const Container = React.createClass({
                   group_topics = {single_user.group.group_topics}
                   event_url = {single_user.event.event_url}
                   TOPIC_LIST = ($this.state.TOPIC_LIST)
+                  CITY_LIST = ($this.state.CITY_LIST)
                   ></User>
               );
             })}
