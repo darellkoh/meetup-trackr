@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/darellkoh/meetup-trackr.git"
   },
+  "engines": {
+    "node": "6.3.1",
+    "npm": "3.10.3"
+  }
   "keywords": [
     "appbase.io",
     "react.js",
