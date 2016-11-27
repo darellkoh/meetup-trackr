@@ -8,11 +8,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded( { extended: true }));
 
 // app.use(morgan('dev'));
-app.use(express.static(__dirname + '/assets'));
-app.use(express.static(__dirname + '/bower_components'));
-app.use(express.static(__dirname + '/node_modules'));
-app.use(express.static(__dirname + '/dist'));
-app.use(express.static(__dirname + '/src'));
+app.use(express.static(process.env.PWD + '/assets'));
+app.use(express.static(process.env.PWD + '/bower_components'));
+app.use(express.static(process.env.PWD + '/node_modules'));
+app.use(express.static(process.env.PWD + '/dist'));
+app.use(express.static(process.env.PWD + '/src'));
 
 
 
